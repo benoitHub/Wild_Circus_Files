@@ -1,0 +1,182 @@
+body{
+	
+	background:rgba(250,250,0,1);
+}
+
+#block_page{
+	background-color: #808080;
+	width:900px;
+	height: 780px;
+	margin:auto;
+	position:relative;
+	top:-15px;
+}
+
+@font-face{
+	font-family: url("https://fonts.googleapis.com/css?family=Londrina+Shadow")
+}
+
+header{
+	display:flex;
+	flex-direction: row;
+	height:130px;
+	background:rgba(150,0,0,0.9);
+	border:5px solid #F5F5F5;
+}
+
+header h1{
+	font-family:Londrina Shadow,Garamond,arial,georgia;
+	font-size:65px;
+	font-weight: bold;
+	position:relative;
+	top:-20px;
+	margin-left:50px;
+	color: rgba(255,255,150,1);
+
+
+}
+
+#LogoCircus{
+	font-family: helvetica,arial,verdana,georgia;
+	font-weight: bold;
+	border-radius:0px 0px 10px 10px;
+	width:150px;
+	background-color: rgba(255,255,255,1);
+	color:#FF4500
+}
+
+#LogoCircus p, #LogoCircus img{
+	text-align: center;
+	margin-bottom: 0px;
+
+
+}
+
+nav{
+	background:rgba(150,0,0,0.9);
+	color:rgba(255,255,150,1);
+	width:230px;
+	height: 478px;
+	position: relative;
+	top:0px;
+	float:right;
+	text-align: center;
+	border: 5px solid #F5F5F5;
+	
+
+}
+
+nav h2{
+	font-family: Garamond, verdana,georgia;
+	font-size:30px;
+	width: 200px;
+	margin-left: 10px
+}
+
+
+nav ul{
+	list-style-type: none;
+	font-weight: bold;
+	
+
+}
+
+nav ul li{
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left: -25px;
+	padding-top: 10px;
+	width:200px;
+	height: 30px;
+	text-align: center;
+	border-radius: 7px;
+	
+}
+
+a{  display:block;
+	background-color:#FFD700;
+	padding-top:10px;
+	height: 30px;
+	text-decoration: none;
+    color:black;
+    border:1px solid white;
+    border-radius: 10px;
+}
+
+a:hover{
+	
+	background-color: #FF4500;
+	color:#F5F5F5;
+	transition:background 0.5s linear;
+}
+#block_links{
+	position: relative;
+	top:-15px;
+	background-color: rgba(150,0,0,0.9);
+	width:650px;
+	height: 30px;
+	border-radius:10px
+}
+
+#Liens_haut_de_page li{
+	display:inline-block;
+	margin-top: -5px;
+	margin-bottom: 10px;
+	margin-left: 35px;
+	padding-top: 10px;
+	width:100px;
+	height: 30px;
+	text-align: center;
+	border-radius: 7px;
+
+}
+
+
+#liens_complement{
+	padding-bottom: 0px;
+	padding-top: 0px;
+	height: 20px
+}
+
+
+article{
+	margin-top:5px; 
+	background-color:rgba(150,0,0,0.9);
+	width: 640px;
+	border:5px solid white;
+}
+
+article h2{
+	font-family: garamond, georgia;
+	font-size: 30px;
+	text-align: center;
+	color:rgba(255,255,150,1);
+}
+
+article p{
+	background-color: #800000;
+	font-family: garamond,georgian;
+	font-size: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	color: #ADD8E6;
+}
+
+footer{
+	margin-left: 330px;
+	margin-top: 71px;
+}
+
+#footer_page1{
+	margin-top: 241px;
+}
+
+#footer_page2{
+	margin-top: 275px;
+
+}
+
+#footer_page3{
+	margin-top: 241px;
+}
